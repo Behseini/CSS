@@ -1,0 +1,16 @@
+
+
+http://stackoverflow.com/questions/25450828/issue-on-targetting-a-class-which-has-one-specific-id
+
+
+<ul>
+<li class="sam">This is not Target</li>
+<li class="sam">This is not Target</li>
+<li class="sam" id="foo">This is The Target</li>
+<li class="sam">This is not Target</li>
+<li class="sam">This is not Target</li>
+</ul>
+
+You need to remove the space:
+
+#foo.sam { color: green }
