@@ -1,3 +1,16 @@
  use :not(:last-child) after .box > .row
 
 .box > .row:not(:last-child) { margin-bottom: 5px;}
+
+
+<ul class="box">
+    <li class="row">One</li>
+    <li class="row">Two</li>
+    <li class="row">Three</li>    
+</ul>
+
+.box > .row:not(:last-child) {
+    color: red;
+}
+
+http://jsfiddle.net/8m72m53r/
