@@ -1,3 +1,7 @@
 Stacking Divs
 
 http://stackoverflow.com/questions/1909648/stacking-divs-on-top-of-each-other
+
+
+div { position: relative; }
+div div { position: absolute; top: 0; left: 0; }
