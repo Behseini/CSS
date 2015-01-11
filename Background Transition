@@ -1,0 +1,16 @@
+Add Transition to the original box and target color to hover 
+
+.box{
+     background-color:#ccc;  
+     height:50px;
+     width:50px;
+     transition: background-color 0.5s ease;   
+    -moz-transition: background-color 0.5s ease;
+    -webkit-transition: background-color 0.5s ease;
+    }
+
+.box:hover{
+    background-color:#777;   
+ }
+ 
+ <dib class="box"></div>
