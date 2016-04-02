@@ -1,0 +1,16 @@
+<div class="col-md-2"><span class="icon-at" ></span></div>
+<button class="btn btn-default"><i class="icon-robot" ></i></button>
+<div class="col-md-2"><i class="icon-robot" ></i></div>
+
+.icon-at:after {
+  content: "@";
+  font-weight: bold;
+}
+    
+    .icon-robot:after {
+content: "";
+width: 24px;
+height: 24px;
+background:url("http://localhost/img//robot.png") no-repeat;
+display: inline-block;
+}
